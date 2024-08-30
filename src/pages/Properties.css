@@ -1,0 +1,41 @@
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.btns button{
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-weight:700;
+}
+
+.numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 100px;    
+}
+.numbers a{
+    background-color: black;
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active_btn{
+    background-color: orangered !important;
+}
+
+@media screen and (max-width:992px) {
+.btns {
+  flex-wrap:wrap ;    
+}
+.numbers a{
+    padding: 10px;
+}
+}

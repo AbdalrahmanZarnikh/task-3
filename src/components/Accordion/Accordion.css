@@ -1,0 +1,26 @@
+.box_accordion{
+    max-width: 500px;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.146);
+    border-radius:10px ;
+}
+.box_accordion h3{
+    margin: 20px 0;
+    position: relative;
+    cursor: pointer;
+}
+.box_accordion h3::after:not("title_three"){
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 30px;
+    background-color: rgba(0, 0, 0, 0.258);
+    height: 1px;
+}
+.accord{
+    display: none;
+}
+.active_accord{
+    color: red;
+}

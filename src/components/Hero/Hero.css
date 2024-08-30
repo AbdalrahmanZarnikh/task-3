@@ -1,0 +1,35 @@
+.content_hero{
+    width: 98vw;
+    margin: 0 auto;
+    position: relative;
+}
+
+.content_hero img{
+    width: 100%;
+}
+.content_hero .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.content_hero .text p{
+    background-color: white;
+    text-align: center;
+    width: fit-content;
+    padding: 12px 20px;
+    margin: 30px auto;
+}
+
+.content_hero .text .title{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+}
+
+@media screen and (max-width:992px) {
+    .content_hero img{
+        height: 500px;
+    }
+}

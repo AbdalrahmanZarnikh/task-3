@@ -1,0 +1,36 @@
+.content_conatct_page{
+    margin-bottom: -10px;
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px;
+}
+.info1{
+    margin-bottom: 20px;
+}
+.content_conatct_page .text{
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+.content_conatct_page .map{
+    width: 80vw;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:992px) {
+    .middle{
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+    }
+    .content_conatct_page .map{
+        width: 100%;
+    }
+    .content_conatct_page .left_middle{
+        margin-left: 15px;
+    }
+     
+}
